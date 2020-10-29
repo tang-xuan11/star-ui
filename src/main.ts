@@ -2,19 +2,21 @@ import { createApp } from "vue";
 import App from "./App.vue";
 import "./index.css";
 import { createWebHashHistory, createRouter } from "vue-router";
-import Tang from "./components/tang.vue";
-import Tang1 from "./components/tang1.vue";
+import Home from "./view/Home.vue";
+import Doc from './view/Doc.vue'
+
+
 const history = createWebHashHistory();
 const router = createRouter({
   history: history,
   routes: [
     {
       path: "/",
-      component: Tang,
+      component: Home,
     },
     {
-      path: "/tang1",
-      component: Tang1,
+      path: "/doc",
+      component: Doc,
     },
   ],
 });
