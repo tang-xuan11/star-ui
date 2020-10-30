@@ -1,9 +1,16 @@
 <template>
-  <div>Button 的文档</div>
+  <div>
+    <Button>你好</Button>
+  </div>
 </template>
 
 <script>
-export default {};
+import Button from "../lib/Button.vue";
+export default {
+  components: {
+    Button,
+  },
+};
 </script>
 
 <style lang="scss" scoped>
