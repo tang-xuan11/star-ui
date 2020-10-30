@@ -10,8 +10,18 @@
   <h1>示例1</h1>
   <div>
     <Button size="big">大按钮</Button>
-    <Button>默认按钮</Button>
+    <Button>中按钮</Button>
     <Button size="small">小按钮</Button>
+  </div>
+  <div>
+    <Button size="big" theme="link">大按钮</Button>
+    <Button theme="link">中按钮</Button>
+    <Button size="small" theme="link">小按钮</Button>
+  </div>
+  <div>
+    <Button size="big" theme="text">大按钮</Button>
+    <Button theme="text">中按钮</Button>
+    <Button size="small" theme="text">小按钮</Button>
   </div>
 </template>
 
