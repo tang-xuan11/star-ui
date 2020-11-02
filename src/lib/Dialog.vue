@@ -9,7 +9,7 @@
             <span @click="close" class="gulu-dialog-close"> </span>
           </header>
           <main>
-            <slot name="context" />
+            <slot name="content" />
           </main>
           <footer>
             <Button @click="ok" level="main">OK</Button>

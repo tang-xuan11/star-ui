@@ -11,7 +11,7 @@
     <template v-slot:title>
       <strong>加粗的标题</strong>
     </template>
-    <template v-slot:context>
+    <template v-slot:content>
       <strong>内容1</strong>
       <div>内容2</div>
     </template>
@@ -39,7 +39,7 @@ export default {
     const showDialog = () => {
       openDialog({
         title: "标题",
-        context: "内容1",
+        content: "内容1",
         ok() {
           console.log("ok");
         },
