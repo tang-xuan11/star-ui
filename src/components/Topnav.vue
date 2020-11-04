@@ -47,15 +47,15 @@ export default {
   top: 0;
   left: 0;
   width: 100%;
-  z-index: 10;
+  z-index: 20;
   justify-content: center;
   align-items: center;
   > .logo {
     max-width: 6em;
     margin-right: auto;
     > .icon {
-      width: 32px;
-      height: 32px;
+      width: 48px;
+      height: 48px;
     }
   }
   > .menu {
