@@ -12,11 +12,11 @@
 </template>
 
 <script>
-import Button1Demo from "./Button1.demo.vue";
-import Button2Demo from "./Button2.demo.vue";
-import Button3Demo from "./Button3.demo.vue";
-import Button4Demo from "./Button4.demo.vue";
-import Button5Demo from "./Button5.demo.vue";
+import Button1Demo from "./buttonDemo/Button1.demo.vue";
+import Button2Demo from "./buttonDemo/Button2.demo.vue";
+import Button3Demo from "./buttonDemo/Button3.demo.vue";
+import Button4Demo from "./buttonDemo/Button4.demo.vue";
+import Button5Demo from "./buttonDemo/Button5.demo.vue";
 import Demo from "./Demo.vue";
 export default {
   components: {
