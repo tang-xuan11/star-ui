@@ -53,7 +53,7 @@ export default {
   > .logo {
     max-width: 6em;
     margin-right: auto;
-    > .icon {
+    > svg {
       width: 48px;
       height: 48px;
     }

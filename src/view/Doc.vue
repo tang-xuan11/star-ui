@@ -83,7 +83,7 @@ export default {
   }
 }
 aside {
-  background: lightblue;
+  background:#feeccc;
   width: 150px;
   padding: 16px 0;
   position: fixed;
