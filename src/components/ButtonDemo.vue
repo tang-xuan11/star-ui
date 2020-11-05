@@ -12,7 +12,6 @@
 </template>
 
 <script>
-import Button from "../lib/Button.vue";
 import Button1Demo from "./Button1.demo.vue";
 import Button2Demo from "./Button2.demo.vue";
 import Button3Demo from "./Button3.demo.vue";
@@ -21,15 +20,10 @@ import Button5Demo from "./Button5.demo.vue";
 import Demo from "./Demo.vue";
 export default {
   components: {
-    Button,
     Demo,
   },
   setup() {
-    const onClick = () => {
-      console.log("hi");
-    };
     return {
-      onClick,
       Button1Demo,
       Button2Demo,
       Button3Demo,
@@ -40,5 +34,3 @@ export default {
 };
 </script>
 
-<style lang="scss" scoped>
-</style>
