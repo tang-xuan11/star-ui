@@ -104,7 +104,7 @@ $border-radius: 4px;
 }
 
 .banner {
-  padding: 100px 0;
+  padding: 30px 0 100px;
   color: #202123;
   display: flex;
   justify-content: center;

@@ -43,7 +43,7 @@ export default {
 .topnav {
   display: flex;
   padding: 16px;
-  position: fixed;
+  /* position: fixed; */
   top: 0;
   left: 0;
   width: 100%;
@@ -72,7 +72,6 @@ export default {
     height: 24px;
     position: absolute;
     left: 16px;
-    top: 50%;
     transform: translateY(-50%);
   }
   @media (max-width: 500px) {
