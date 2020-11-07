@@ -8,8 +8,8 @@
   <Button theme="text">你好</Button>
 </template>
 
-<script>
-import Button from "../../lib/Button.vue";
+<script lang="ts">
+import { Button } from "../../lib/index";
 export default {
   components: {
     Button,
