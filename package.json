@@ -1,6 +1,10 @@
 {
   "name": "star-ui-1",
-  "version": "0.0.0",
+  "version": "0.0.1",
+  "files": [
+    "dist/lib/*"
+  ],
+  "main": "dist/lib/star.js",
   "scripts": {
     "dev": "vite",
     "build": "vite build"
@@ -9,7 +13,7 @@
     "github-markdown-css": "^4.0.0",
     "marked": "^1.2.3",
     "prismjs": "^1.22.0",
-    "vue": "^3.0.0-rc.1",
+    "vue": "^3.0.2",
     "vue-router": "4.0.0-rc.1"
   },
   "devDependencies": {
