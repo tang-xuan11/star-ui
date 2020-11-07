@@ -1,6 +1,6 @@
 <template>
-  <button class="gulu-button" :class="classes" :disabled="disabled">
-    <span v-if="loading" class="gulu-loadingIndicator"></span>
+  <button class="star-button" :class="classes" :disabled="disabled">
+    <span v-if="loading" class="star-loadingIndicator"></span>
     <slot />
   </button>
 </template>
@@ -34,9 +34,9 @@ export default {
     const { theme, size, level } = props;
     const classes = computed(() => {
       return {
-        [`gulu-theme-${theme}`]: theme,
-        [`gulu-size-${size}`]: size,
-        [`gulu-level-${level}`]: level,
+        [`star-theme-${theme}`]: theme,
+        [`star-size-${size}`]: size,
+        [`star-level-${level}`]: level,
       };
     });
     return { classes };
@@ -52,7 +52,7 @@ $blue: #40a9ff;
 $red: red;
 $grey: grey;
 $radius: 4px;
-.gulu-button {
+.star-button {
   box-sizing: border-box;
   height: $h;
   padding: 0 12px;
@@ -81,7 +81,7 @@ $radius: 4px;
   &::-moz-focus-inner {
     border: 0;
   }
-  &.gulu-theme-link {
+  &.star-theme-link {
     border-color: transparent;
     box-shadow: none;
     color: $blue;
@@ -90,7 +90,7 @@ $radius: 4px;
       color: lighten($blue, 10%);
     }
   }
-  &.gulu-theme-text {
+  &.star-theme-text {
     border-color: transparent;
     box-shadow: none;
     color: inherit;
@@ -99,18 +99,18 @@ $radius: 4px;
       background: darken(white, 5%);
     }
   }
-  &.gulu-size-big {
+  &.star-size-big {
     font-size: 24px;
     height: 48px;
     padding: 0 16px;
   }
-  &.gulu-size-small {
+  &.star-size-small {
     font-size: 12px;
     height: 20px;
     padding: 0 4px;
   }
-  &.gulu-theme-button {
-    &.gulu-level-main {
+  &.star-theme-button {
+    &.star-level-main {
       background: $blue;
       color: white;
       border-color: $blue;
@@ -120,7 +120,7 @@ $radius: 4px;
         border-color: darken($blue, 10%);
       }
     }
-    &.gulu-level-danger {
+    &.star-level-danger {
       background: $red;
       border-color: $red;
       color: white;
@@ -131,8 +131,8 @@ $radius: 4px;
       }
     }
   }
-  &.gulu-theme-link {
-    &.gulu-level-danger {
+  &.star-theme-link {
+    &.star-level-danger {
       color: $red;
       &:hover,
       &:focus {
@@ -140,15 +140,15 @@ $radius: 4px;
       }
     }
   }
-  &.gulu-theme-text {
-    &.gulu-level-main {
+  &.star-theme-text {
+    &.star-level-main {
       color: $blue;
       &:hover,
       &:focus {
         color: darken($blue, 10%);
       }
     }
-    &.gulu-level-danger {
+    &.star-level-danger {
       color: $red;
       &:hover,
       &:focus {
@@ -156,7 +156,7 @@ $radius: 4px;
       }
     }
   }
-  &.gulu-theme-button {
+  &.star-theme-button {
     &[disabled] {
       cursor: not-allowed;
       color: $grey;
@@ -165,14 +165,14 @@ $radius: 4px;
       }
     }
   }
-  &.gulu-theme-link,
-  &.gulu-theme-text {
+  &.star-theme-link,
+  &.star-theme-text {
     &[disabled] {
       cursor: not-allowed;
       color: $grey;
     }
   }
-  > .gulu-loadingIndicator {
+  > .star-loadingIndicator {
     width: 14px;
     height: 14px;
     display: inline-block;
@@ -181,10 +181,10 @@ $radius: 4px;
     border-color: $blue $blue $blue transparent;
     border-style: solid;
     border-width: 2px;
-    animation: gulu-spin 1s infinite linear;
+    animation: star-spin 1s infinite linear;
   }
 }
-@keyframes gulu-spin {
+@keyframes star-spin {
   0% {
     transform: rotate(0deg);
   }

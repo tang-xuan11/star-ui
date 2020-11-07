@@ -87,7 +87,7 @@ $border-color: #d9d9d9;
     height: 49px;
     text-align: center;
     border-top: 1px dashed $border-color;
-    > .gulu-button {
+    > .star-button {
       width: 100%;
       color: #aaaaaa;
       &:hover {

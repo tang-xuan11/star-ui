@@ -1,8 +1,8 @@
 <template>
-  <div class="gulu-tabs">
-    <div class="gulu-tabs-nav" ref="container">
+  <div class="star-tabs">
+    <div class="star-tabs-nav" ref="container">
       <div
-        class="gulu-tabs-nav-item"
+        class="star-tabs-nav-item"
         v-for="(t, index) in titles"
         :key="index"
         :class="{ selected: t === selected }"
@@ -15,11 +15,11 @@
       >
         {{ t }}
       </div>
-      <div class="gulu-tabs-nav-indicator" ref="indicator"></div>
+      <div class="star-tabs-nav-indicator" ref="indicator"></div>
     </div>
-    <div class="gulu-tabs-content">
+    <div class="star-tabs-content">
       <component
-        class="gulu-tabs-content-item"
+        class="star-tabs-content-item"
         v-for="(c, index) in defaults"
         :is="c"
         :key="index"
@@ -80,7 +80,7 @@ export default {
 $blue: #40a9ff;
 $color: #333;
 $border-color: #d9d9d9;
-.gulu-tabs {
+.star-tabs {
   &-nav {
     position: relative;
     display: flex;

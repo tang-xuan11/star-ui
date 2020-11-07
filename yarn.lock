@@ -2557,7 +2557,7 @@ rollup-plugin-dynamic-import-variables@^1.1.0:
     globby "^11.0.0"
     magic-string "^0.25.7"
 
-rollup-plugin-esbuild@^2.5.2:
+rollup-plugin-esbuild@^2.5.0:
   version "2.5.2"
   resolved "https://registry.npm.taobao.org/rollup-plugin-esbuild/download/rollup-plugin-esbuild-2.5.2.tgz#fd7d4a88518898012a9d07e4c3ef8b4009c244d3"
   integrity sha1-/X1KiFGImAEqnQfkw++LQAnCRNM=
@@ -2566,7 +2566,7 @@ rollup-plugin-esbuild@^2.5.2:
     joycon "^2.2.5"
     strip-json-comments "^3.1.1"
 
-rollup-plugin-scss@^2.6.1:
+rollup-plugin-scss@^2.6.0:
   version "2.6.1"
   resolved "https://registry.npm.taobao.org/rollup-plugin-scss/download/rollup-plugin-scss-2.6.1.tgz#22826b4499f511aaf2edb8420faaf04a42e24a33"
   integrity sha1-IoJrRJn1Eary7bhCD6rwSkLiSjM=
@@ -2589,15 +2589,6 @@ rollup-plugin-vue@^6.0.0-beta.10:
   version "6.0.0-beta.10"
   resolved "https://registry.npm.taobao.org/rollup-plugin-vue/download/rollup-plugin-vue-6.0.0-beta.10.tgz#66d9b9a8dd2d085267d1cc398ea0113360879ac1"
   integrity sha1-Ztm5qN0tCFJn0cw5jqARM2CHmsE=
-  dependencies:
-    debug "^4.1.1"
-    hash-sum "^2.0.0"
-    rollup-pluginutils "^2.8.2"
-
-rollup-plugin-vue@^6.0.0-beta.11:
-  version "6.0.0-beta.11"
-  resolved "https://registry.npm.taobao.org/rollup-plugin-vue/download/rollup-plugin-vue-6.0.0-beta.11.tgz#fdbc6b7484a361ef8c5e8009cef4a6bd45435013"
-  integrity sha1-/bxrdISjYe+MXoAJzvSmvUVDUBM=
   dependencies:
     debug "^4.1.1"
     hash-sum "^2.0.0"
@@ -2652,9 +2643,9 @@ sass-graph@2.2.5:
     scss-tokenizer "^0.2.3"
     yargs "^13.3.2"
 
-sass@^1.29.0:
+sass@^1.26.11:
   version "1.29.0"
-  resolved "https://registry.npm.taobao.org/sass/download/sass-1.29.0.tgz?cache=0&sync_timestamp=1604536466387&other_urls=https%3A%2F%2Fregistry.npm.taobao.org%2Fsass%2Fdownload%2Fsass-1.29.0.tgz#ec4e1842c146d8ea9258c28c141b8c2b7c6ab7f1"
+  resolved "https://registry.npm.taobao.org/sass/download/sass-1.29.0.tgz?cache=0&sync_timestamp=1604536529961&other_urls=https%3A%2F%2Fregistry.npm.taobao.org%2Fsass%2Fdownload%2Fsass-1.29.0.tgz#ec4e1842c146d8ea9258c28c141b8c2b7c6ab7f1"
   integrity sha1-7E4YQsFG2OqSWMKMFBuMK3xqt/E=
   dependencies:
     chokidar ">=2.0.0 <4.0.0"
