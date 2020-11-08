@@ -42,20 +42,22 @@ export default {
 <style lang="scss" scoped>
 .topnav {
   display: flex;
-  padding: 16px;
-  /* position: fixed; */
+  padding: 0 16px;
+  position: fixed;
   top: 0;
   left: 0;
   width: 100%;
   z-index: 20;
   justify-content: center;
   align-items: center;
+  border-bottom: 1px solid black;
+  background: blanchedalmond;
   > .logo {
     max-width: 6em;
     margin-right: auto;
     > svg {
-      width: 48px;
-      height: 48px;
+      width: 40px;
+      height: 40px;
     }
   }
   > .menu {
@@ -72,6 +74,7 @@ export default {
     height: 24px;
     position: absolute;
     left: 16px;
+    top: 50%;
     transform: translateY(-50%);
   }
   @media (max-width: 500px) {
