@@ -1,13 +1,13 @@
 <template>
-  <h1>示例1</h1>
+  <h1>基础用法</h1>
   <Demo :component="Button1Demo" />
-  <h1>示例2</h1>
+  <h1>不同尺寸</h1>
   <Demo :component="Button2Demo" />
-  <h1>示例3</h1>
+  <h1>不同颜色</h1>
   <Demo :component="Button3Demo" />
-  <h1>示例4</h1>
+  <h1>禁用按钮</h1>
   <Demo :component="Button4Demo" />
-  <h1>示例5</h1>
+  <h1>加载中</h1>
   <Demo :component="Button5Demo" />
 </template>
 

@@ -1,5 +1,5 @@
 <template>
-  <div>Tabs 的文档</div>
+  <h1>基础用法</h1>
   <Demo :component="Tabs1Demo" />
 </template>
 

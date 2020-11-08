@@ -1,8 +1,7 @@
 <template>
-  <div>Dialog 的文档</div>
-  <h1>示例1</h1>
+  <h1>基础用法</h1>
   <Demo :component="Dialog1Demo" />
-  <h1>示例2</h1>
+  <h1>快速使用</h1>
   <Demo :component="Dialog2Demo" />
 </template>
 

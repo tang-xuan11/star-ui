@@ -1,7 +1,8 @@
 <template>
   <div>
-    <h1>Switch 组件示例</h1>
+    <h1>基础用法</h1>
     <Demo :component="Switch1Demo" />
+    <h1>支持禁用</h1>
     <Demo :component="Switch2Demo" />
   </div>
 </template>

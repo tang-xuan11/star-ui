@@ -2,10 +2,9 @@
 常规使用
 </demo>
 <template>
-  <Button>你好</Button>
-  <Button @click="onClick">Hello</Button>
-  <Button theme="link">Hello</Button>
-  <Button theme="text">Hellp</Button>
+  <Button @click="onClick">你好</Button>
+  <Button theme="link">你好</Button>
+  <Button theme="text">你好</Button>
 </template>
 
 <script lang="ts">

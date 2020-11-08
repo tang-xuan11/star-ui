@@ -45,17 +45,19 @@ export default {
 </script>
 
 <style lang="scss">
-$h: 32px;
+$h: 40px;
 $border-color: #d9d9d9;
 $color: #333;
 $blue: #40a9ff;
 $red: red;
 $grey: grey;
+$yellow: #e6a23c;
+$green: #67c23a;
 $radius: 4px;
 .star-button {
   box-sizing: border-box;
   height: $h;
-  padding: 0 12px;
+  padding: 0 14px;
   cursor: pointer;
   display: inline-flex;
   justify-content: center;
@@ -105,9 +107,9 @@ $radius: 4px;
     padding: 0 16px;
   }
   &.star-size-small {
-    font-size: 12px;
-    height: 20px;
-    padding: 0 4px;
+    font-size: 16px;
+    height: 32px;
+    padding: 0 10px;
   }
   &.star-theme-button {
     &.star-level-main {
@@ -128,6 +130,26 @@ $radius: 4px;
       &:focus {
         background: darken($red, 10%);
         border-color: darken($red, 10%);
+      }
+    }
+    &.star-level-warning {
+      background: $yellow;
+      border-color: $yellow;
+      color: white;
+      &:hover,
+      &:focus {
+        background: darken($yellow, 10%);
+        border-color: darken($yellow, 10%);
+      }
+    }
+    &.star-level-success {
+      background: $green;
+      border-color: $green;
+      color: white;
+      &:hover,
+      &:focus {
+        background: darken($green, 10%);
+        border-color: darken($green, 10%);
       }
     }
   }
@@ -153,6 +175,20 @@ $radius: 4px;
       &:hover,
       &:focus {
         color: darken($red, 10%);
+      }
+    }
+    &.star-level-warning {
+      color: $yellow;
+      &:hover,
+      &:focus {
+        color: darken($yellow, 10%);
+      }
+    }
+    &.star-level-success {
+      color: $green;
+      &:hover,
+      &:focus {
+        color: darken($green, 10%);
       }
     }
   }
