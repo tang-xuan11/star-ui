@@ -71,8 +71,11 @@ $border-color: #d9d9d9;
   background: white;
   border-radius: $radius;
   box-shadow: 0 0 3px fade_out(black, 0.5);
-  min-width: 15em;
+  min-width: 30em;
   max-width: 90%;
+  @media (max-width: 500px) {
+    min-width: 15em;
+  }
   &-overlay {
     position: fixed;
     top: 0;
@@ -85,7 +88,7 @@ $border-color: #d9d9d9;
   &-wrapper {
     position: fixed;
     left: 50%;
-    top: 50%;
+    top: 30%;
     transform: translate(-50%, -50%);
     z-index: 11;
   }
