@@ -42,7 +42,7 @@ export default {
 <style lang="scss" scoped>
 .topnav {
   display: flex;
-  padding: 0 16px;
+  padding: 4px 16px;
   position: fixed;
   top: 0;
   left: 0;
@@ -55,6 +55,7 @@ export default {
   > .logo {
     max-width: 6em;
     margin-right: auto;
+    display: flex;
     > svg {
       width: 40px;
       height: 40px;
