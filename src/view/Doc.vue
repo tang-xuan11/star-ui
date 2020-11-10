@@ -73,6 +73,7 @@ export default {
 }
 .content {
   display: flex;
+  justify-content: center;
   > aside {
     flex-shrink: 0;
     z-index: 10;
@@ -82,6 +83,7 @@ export default {
     padding: 16px;
     background: white;
     padding-top: 100px;
+    max-width: 1000px;
   }
 }
 .aside-wrapper {
