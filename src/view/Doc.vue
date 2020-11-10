@@ -102,7 +102,7 @@ export default {
   }
 }
 aside {
-  background: #feeccc;
+  background: #324d5b;
   width: 150px;
   padding: 16px 0;
   position: fixed;
@@ -110,6 +110,7 @@ aside {
   left: 0;
   padding-top: 70px;
   height: 100%;
+  color: white;
   > h2 {
     margin-bottom: 4px;
     padding: 0 16px;
@@ -122,6 +123,7 @@ aside {
       }
       .router-link-active {
         background: white;
+        color: black;
       }
     }
   }

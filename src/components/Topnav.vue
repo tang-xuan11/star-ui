@@ -51,7 +51,13 @@ export default {
   justify-content: center;
   align-items: center;
   border-bottom: 1px solid black;
-  background: blanchedalmond;
+  background: linear-gradient(
+    309deg,
+    rgba(252, 210, 195, 1) 0%,
+    rgba(248, 223, 232, 1) 38%,
+    rgba(245, 233, 255, 1) 68%,
+    rgba(230, 255, 254, 1) 100%
+  );
   > .logo {
     max-width: 6em;
     margin-right: auto;

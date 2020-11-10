@@ -52,7 +52,13 @@ export default {
 $border-radius: 4px;
 
 .topnavAndBanner {
-  background: #ffc8c8;
+  background: linear-gradient(
+    135deg,
+    rgba(252, 210, 195, 1) 0%,
+    rgba(248, 223, 232, 1) 38%,
+    rgba(245, 233, 255, 1) 68%,
+    rgba(230, 255, 254, 1) 100%
+  );
   clip-path: ellipse(80% 60% at 50% 40%);
 }
 .features {
